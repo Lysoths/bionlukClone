@@ -26,6 +26,7 @@ body {
 
 .nav-bar .logo img {
     width: 120px;
+    padding-left:15px;
 }
 
 .search-bar {
@@ -67,16 +68,17 @@ body {
     border-left:1px solid rgba(128, 128, 128, 0.349);
     border-right:1px solid rgba(128, 128, 128, 0.349);
     height:60px;
+    padding-left:10px; 
 }
 
 .profile-small-photo {
     width:30px;
-    border-radius:50px;
-    margin-left:25px;    
+    border-radius:30px;
+       
 }
 
 .oguzhan {
-    margin:0 30px;
+    margin:0 20px;
     font-weight: 500;
 }
 
@@ -108,7 +110,7 @@ body {
     /* background-color:blue; */
     /* background-color:#F4F5F7; */
     /* z-index: -5 !important; */
-    background-color:#F4F5F7;
+    
 }
 
 .left-menu {
@@ -170,16 +172,25 @@ body {
     text-align: center; 
 }
 .right-menu {
-    
     width:100%;
-    /* z-index:-1; */
-    padding:70px ;
-   
+    padding: 50px;
+    /* z-index:-1; */  
+    background-color:#F4F5F7;
+    /* display:flex; */
+    justify-content:center;
+    align-items:center;
+}
+
+.container-content{
+   display:flex;
+   flex-direction:column;
+   margin-top:70px;
 }
 
 .top-content-hello {
     display:flex;
     justify-content: space-between;
+    max-width:900px;
     
 }
 .freelancer > span {
@@ -197,6 +208,7 @@ body {
 .hello div  img {
     width:70px;
     border-radius: 70px;
+    margin-left:55px;
 }
 .fa-hand {
     color:#FFC83D;
@@ -204,7 +216,10 @@ body {
 }
 
 .hello-oguzhan {
-    margin:0 15px;    
+   margin:0 15px; 
+   display:flex;
+   flex-direction: column; 
+   width:300px;
 }
 
 .hello-oguzhan div {
@@ -234,7 +249,7 @@ body {
     width:270px;
     height:100px;
     background-color:white;
-    margin:0 220px;
+    /* margin:0 220px; */
     display:flex;
     align-items:center;
     justify-content:center;
@@ -265,12 +280,15 @@ body {
     display:flex;
     justify-content:space-between;
     margin-top:80px;
+    max-width: 1000px;
+    margin-left:35px;
     
 }
 
 .sana-ozel span {
     font-weight: 600;
     color:grey;
+   
 }
 .gizle {    
     margin:0 220px;
@@ -284,8 +302,11 @@ body {
     justify-content:center;
     background-color:white;
     height:400px;
-    margin:20px 220px 0 0;
+    /* margin:20px 220px 0 0; */
     border-radius: 10px;
+    width:100%;
+    max-width:850px;
+    margin-left:35px;
 }
 
 .alici-ulas-container {
